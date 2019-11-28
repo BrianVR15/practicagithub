@@ -16,7 +16,7 @@ public class Practicagithub {
      */
     public static void main(String[] args) {
         System.out.println(suma());
-        System.out.println(multiplicacio());
+        System.out.println(divisio());
     }
     
     
@@ -26,10 +26,10 @@ public class Practicagithub {
         return a+b;
     }
     
-    public static int multiplicacio(){
-        int a= 3;
-        int b = 2;
-        return a*b;
+    public static double divisio(){
+        double a= 3;
+        double b = 2;
+        return a/b;
     }
     
 }
